@@ -44,24 +44,19 @@
   flex-direction: row;
 }
  
-.our-goals-button1 {
+.our-goals-navlink1 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
-.our-goals-button2 {
+.our-goals-navlink2 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
-.our-goals-button3 {
+.our-goals-navlink3 {
   color: rgb(255, 255, 255);
-}
- 
-.our-goals-button4 {
-  color: rgb(255, 255, 255);
-}
- 
-.our-goals-button5 {
-  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
 .our-goals-btn-group {
@@ -1322,7 +1317,7 @@
   line-height: 27px;
 }
  
-.our-goals-button7 {
+.our-goals-button2 {
   margin-top: var(--dl-layout-space-oneandhalfunits);
 }
  
@@ -1923,7 +1918,7 @@
   line-height: 27px;
 }
  
-.our-goals-button8 {
+.our-goals-button3 {
   margin-top: var(--dl-layout-space-oneandhalfunits);
 }
  
@@ -2014,10 +2009,6 @@
   flex-direction: column;
 }
  
-.our-goals-heading21 {
-  color: rgb(255, 255, 255);
-}
- 
 .our-goals-items1 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -2027,18 +2018,17 @@
  
 .our-goals-link12 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
 .our-goals-link13 {
   color: rgb(255, 255, 255);
+  display: none;
 }
  
 .our-goals-link14 {
   color: rgb(255, 255, 255);
-}
- 
-.our-goals-link15 {
-  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
 .our-goals-list3 {
@@ -2048,8 +2038,9 @@
   flex-direction: column;
 }
  
-.our-goals-heading22 {
+.our-goals-heading21 {
   color: rgb(255, 255, 255);
+  display: none;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -2062,8 +2053,14 @@
   flex-direction: column;
 }
  
+.our-goals-link15 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+ 
 .our-goals-link16 {
   color: rgb(255, 255, 255);
+  display: none;
 }
  
 .our-goals-link17 {
@@ -2072,13 +2069,10 @@
  
 .our-goals-link18 {
   color: rgb(255, 255, 255);
+  display: none;
 }
  
 .our-goals-link19 {
-  color: rgb(255, 255, 255);
-}
- 
-.our-goals-link20 {
   color: rgb(255, 255, 255);
 }
  
@@ -2126,7 +2120,7 @@
   .our-goals-burger-menu {
     display: flex;
   }
-  .our-goals-button6 {
+  .our-goals-button1 {
     display: flex;
     padding: var(--dl-layout-space-unit);
     flex-direction: row;
@@ -2444,7 +2438,7 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .our-goals-button7 {
+  .our-goals-button2 {
     margin-top: 0px;
   }
   .our-goals-heading16 {
@@ -2630,7 +2624,7 @@
     text-align: center;
     line-height: 21px;
   }
-  .our-goals-button8 {
+  .our-goals-button3 {
     margin-top: 0px;
   }
   .our-goals-footer {

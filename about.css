@@ -44,24 +44,29 @@
   flex-direction: row;
 }
  
+.about-navlink1 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+ 
+.about-navlink2 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+ 
 .about-button1 {
   color: rgb(255, 255, 255);
+  display: none;
+}
+ 
+.about-navlink3 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
 .about-button2 {
   color: rgb(255, 255, 255);
-}
- 
-.about-button3 {
-  color: rgb(255, 255, 255);
-}
- 
-.about-button4 {
-  color: rgb(255, 255, 255);
-}
- 
-.about-button5 {
-  color: rgb(255, 255, 255);
+  display: none;
 }
  
 .about-btn-group {
@@ -1327,7 +1332,7 @@
   line-height: 27px;
 }
  
-.about-button7 {
+.about-button4 {
   margin-top: var(--dl-layout-space-oneandhalfunits);
 }
  
@@ -1928,7 +1933,7 @@
   line-height: 27px;
 }
  
-.about-button8 {
+.about-button5 {
   margin-top: var(--dl-layout-space-oneandhalfunits);
 }
  
@@ -2021,6 +2026,7 @@
  
 .about-heading21 {
   color: rgb(255, 255, 255);
+  display: none;
 }
  
 .about-items1 {
@@ -2032,18 +2038,22 @@
  
 .about-link12 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
 .about-link13 {
   color: rgb(255, 255, 255);
+  display: none;
 }
  
 .about-link14 {
   color: rgb(255, 255, 255);
+  display: none;
 }
  
 .about-link15 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
 .about-list3 {
@@ -2055,6 +2065,7 @@
  
 .about-heading22 {
   color: rgb(255, 255, 255);
+  display: none;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -2069,10 +2080,12 @@
  
 .about-link16 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
 .about-link17 {
   color: rgb(255, 255, 255);
+  display: none;
 }
  
 .about-link18 {
@@ -2081,6 +2094,7 @@
  
 .about-link19 {
   color: rgb(255, 255, 255);
+  display: none;
 }
  
 .about-link20 {
@@ -2131,7 +2145,7 @@
   .about-burger-menu {
     display: flex;
   }
-  .about-button6 {
+  .about-button3 {
     display: flex;
     padding: var(--dl-layout-space-unit);
     flex-direction: row;
@@ -2449,7 +2463,7 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .about-button7 {
+  .about-button4 {
     margin-top: 0px;
   }
   .about-heading16 {
@@ -2635,7 +2649,7 @@
     text-align: center;
     line-height: 21px;
   }
-  .about-button8 {
+  .about-button5 {
     margin-top: 0px;
   }
   .about-footer {

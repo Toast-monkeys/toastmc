@@ -45,8 +45,9 @@
   flex-direction: row;
 }
  
-.home-button1 {
+.home-navlink {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
 .home-link10 {
@@ -54,16 +55,17 @@
   text-decoration: none;
 }
  
-.home-button2 {
+.home-button1 {
   color: rgb(255, 255, 255);
   display: none;
 }
  
-.home-button3 {
+.home-link11 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
  
-.home-button4 {
+.home-button2 {
   color: rgb(255, 255, 255);
   display: none;
 }
@@ -332,7 +334,7 @@
   flex-direction: column;
 }
  
-.home-link11 {
+.home-link12 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -346,7 +348,7 @@
   object-fit: cover;
 }
  
-.home-link12 {
+.home-link13 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -1325,7 +1327,7 @@
   line-height: 27px;
 }
  
-.home-button6 {
+.home-button4 {
   margin-top: var(--dl-layout-space-oneandhalfunits);
 }
  
@@ -2032,14 +2034,9 @@
   flex-direction: column;
 }
  
-.home-link13 {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
- 
 .home-link14 {
   color: rgb(255, 255, 255);
-  display: none;
+  text-decoration: none;
 }
  
 .home-link15 {
@@ -2048,6 +2045,11 @@
 }
  
 .home-link16 {
+  color: rgb(255, 255, 255);
+  display: none;
+}
+ 
+.home-link17 {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -2074,26 +2076,26 @@
   flex-direction: column;
 }
  
-.home-link17 {
+.home-link18 {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
  
-.home-link18 {
-  color: rgb(255, 255, 255);
-  display: none;
-}
- 
 .home-link19 {
   color: rgb(255, 255, 255);
+  display: none;
 }
  
 .home-link20 {
   color: rgb(255, 255, 255);
-  display: none;
 }
  
 .home-link21 {
+  color: rgb(255, 255, 255);
+  display: none;
+}
+ 
+.home-link22 {
   color: rgb(255, 255, 255);
 }
  
@@ -2141,7 +2143,7 @@
   .home-burger-menu {
     display: flex;
   }
-  .home-button5 {
+  .home-button3 {
     display: flex;
     padding: var(--dl-layout-space-unit);
     flex-direction: row;
@@ -2459,7 +2461,7 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .home-button6 {
+  .home-button4 {
     margin-top: 0px;
   }
   .home-heading16 {
