@@ -29,6 +29,7 @@
  
 .our-goals-logo1 {
   color: rgb(255, 255, 255);
+  font-size: 32px;
 }
  
 .our-goals-desktop-menu {
@@ -155,23 +156,22 @@
   flex-direction: column;
 }
  
+.our-goals-navlink4 {
+  margin-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+}
+ 
+.our-goals-navlink5 {
+  margin-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+}
+ 
+.our-goals-navlink6 {
+  margin-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+}
+ 
 .our-goals-text10 {
-  margin-bottom: var(--dl-layout-space-unit);
-}
- 
-.our-goals-text11 {
-  margin-bottom: var(--dl-layout-space-unit);
-}
- 
-.our-goals-text12 {
-  margin-bottom: var(--dl-layout-space-unit);
-}
- 
-.our-goals-text13 {
-  margin-bottom: var(--dl-layout-space-unit);
-}
- 
-.our-goals-text14 {
   margin-bottom: var(--dl-layout-space-unit);
 }
  
@@ -186,6 +186,7 @@
  
 .our-goals-login {
   margin-right: var(--dl-layout-space-twounits);
+  text-decoration: none;
 }
  
 .our-goals-icon-group {
@@ -455,7 +456,7 @@
   background-color: transparent;
 }
  
-.our-goals-text24 {
+.our-goals-text20 {
   font-style: normal;
   font-weight: 500;
 }
@@ -543,7 +544,7 @@
   background-color: transparent;
 }
  
-.our-goals-text25 {
+.our-goals-text21 {
   font-style: normal;
   font-weight: 500;
 }
@@ -641,7 +642,7 @@
   background-color: transparent;
 }
  
-.our-goals-text26 {
+.our-goals-text22 {
   font-style: normal;
   font-weight: 500;
 }
@@ -2126,7 +2127,16 @@
     flex-direction: row;
   }
   .our-goals-logo2 {
-    color: #000000;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .our-goals-text10 {
+    display: none;
+  }
+  .our-goals-register {
+    display: none;
   }
   .our-goals-row1 {
     flex-direction: column;
