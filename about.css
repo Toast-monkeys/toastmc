@@ -29,6 +29,7 @@
  
 .about-logo1 {
   color: rgb(255, 255, 255);
+  font-size: 32px;
 }
  
 .about-desktop-menu {
@@ -165,23 +166,26 @@
   flex-direction: column;
 }
  
+.about-navlink4 {
+  margin-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+}
+ 
+.about-navlink5 {
+  margin-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+}
+ 
 .about-text10 {
   margin-bottom: var(--dl-layout-space-unit);
 }
  
+.about-navlink6 {
+  margin-bottom: var(--dl-layout-space-unit);
+  text-decoration: none;
+}
+ 
 .about-text11 {
-  margin-bottom: var(--dl-layout-space-unit);
-}
- 
-.about-text12 {
-  margin-bottom: var(--dl-layout-space-unit);
-}
- 
-.about-text13 {
-  margin-bottom: var(--dl-layout-space-unit);
-}
- 
-.about-text14 {
   margin-bottom: var(--dl-layout-space-unit);
 }
  
@@ -196,6 +200,10 @@
  
 .about-login {
   margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.about-register {
+  text-decoration: none;
 }
  
 .about-icon-group {
@@ -331,7 +339,7 @@
   line-height: 60px;
 }
  
-.about-text20 {
+.about-text17 {
   font-weight: 700;
   text-decoration: underline;
 }
@@ -470,7 +478,7 @@
   background-color: transparent;
 }
  
-.about-text26 {
+.about-text23 {
   font-style: normal;
   font-weight: 500;
 }
@@ -558,7 +566,7 @@
   background-color: transparent;
 }
  
-.about-text27 {
+.about-text24 {
   font-style: normal;
   font-weight: 500;
 }
@@ -656,7 +664,7 @@
   background-color: transparent;
 }
  
-.about-text28 {
+.about-text25 {
   font-style: normal;
   font-weight: 500;
 }
@@ -2151,7 +2159,19 @@
     flex-direction: row;
   }
   .about-logo2 {
-    color: #000000;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .about-text10 {
+    display: none;
+  }
+  .about-text11 {
+    display: none;
+  }
+  .about-login {
+    display: none;
   }
   .about-row1 {
     flex-direction: column;
